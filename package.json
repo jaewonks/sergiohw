@@ -1,0 +1,26 @@
+{
+  "name": "herras12",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html",
+    "clean": "rimraf dist .cache .cache-loader"
+  },
+  "keywords": [],
+  "author": "Sergio <sergio7navarro@uoc.edu>",
+  "license": "MIT",
+  "dependencies": {
+    "browserslist": "^4.16.1",
+    "postcss": "^8.2.3",
+    "uniq": "^1.0.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.8.6",
+    "cssnano": "^4.1.10",
+    "npm-run-all": "^4.1.5",
+    "parcel-plugin-imagemin": "^4.0.2",
+    "rimraf": "^3.0.2"
+  }
+}
