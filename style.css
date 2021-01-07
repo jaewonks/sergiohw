@@ -7,13 +7,12 @@ html {
     font-family: 'Raleway', sans-serif;
 }
 
-  /*font-family: 'Pacifico';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Pacifico Regular'), local('Pacifico-Regular'), url(https://fonts.gstatic.com/s/pacifico/v12/FwZY7-Qmy14u9lezJ-6H6MmBp0u-.woff2) format('woff2');*/
-  
 @font-face {
+  font-family: 'Raleway';
+  font-style: italic;
+  font-weight: 200;
   font-display: swap;
+  src: url(https://fonts.gstatic.com/s/raleway/v18/1Pt_g8zYS_SKggPNyCgSQamb1W0lwk4S4ejMDrcfJh1Zyc61YBlG.woff) format('woff');
 }
   
 /* CABECERA Y LOGO*/
