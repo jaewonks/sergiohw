@@ -8,11 +8,7 @@ html {
 }
 
 @font-face {
-  font-family: 'Raleway';
-  font-style: italic;
-  font-weight: 200;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/raleway/v18/1Pt_g8zYS_SKggPNyCgSQamb1W0lwk4S4ejMDrcfJh1Zyc61YBlG.woff) format('woff');
+	font-display: swap;
 }
   
 /* CABECERA Y LOGO*/
