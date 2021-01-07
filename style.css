@@ -6,10 +6,6 @@ body {
 html {
     font-family: 'Raleway', sans-serif;
 }
-
-@font-face {
-	font-display: swap;
-}
   
 /* CABECERA Y LOGO*/
 .text_inicial{
