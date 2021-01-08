@@ -1,11 +1,3 @@
-/*function init() {
-  var vidDefer = document.getElementsByTagName('iframe');
-    if(vidDefer.getAttribute('data-src')) {
-      vidDefer.setAttribute('src',vidDefer.getAttribute('data-src'));
-		} 
-	} 
-window.onload = init;*/
-
 // NAV
 function myFunction() {
 	var x = document.getElementById("myTopnav");
@@ -16,4 +8,10 @@ function myFunction() {
 	}
 }
 
-document.addEventListener('touchstart', onTouchStart, {passive: true});
+// document.addEventListener('touchstart', onTouchStart, {passive: true});
+
+document.addEventListener("touchstart", function(e) {
+	console.log(e.defaultPrevented);  // will be false
+	e.preventDefault();   // does nothing since the listener is passive
+	console.log(e.defaultPrevented);  // still false
+}, Modernizr.passiveeventlisteners ? {passive: true} : false);
