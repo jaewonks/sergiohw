@@ -1,3 +1,11 @@
+function init() {
+  var vidDefer = document.getElementsByTagName('iframe');
+    if(vidDefer.getAttribute('data-src')) {
+      vidDefer.setAttribute('src',vidDefer.getAttribute('data-src'));
+		} 
+	} 
+window.onload = init;
+
 // NAV
 function myFunction() {
 	var x = document.getElementById("myTopnav");
@@ -7,11 +15,3 @@ function myFunction() {
 	  x.className = "topnav";
 	}
 }
-
-function init() {
-  var vidDefer = document.getElementsByTagName('iframe');
-    if(vidDefer.getAttribute('data-src')) {
-      vidDefer.setAttribute('src',vidDefer.getAttribute('data-src'));
-		} 
-	} 
-window.onload = init;
