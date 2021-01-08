@@ -49,12 +49,21 @@
                     height="9">
                 </a>
             </p>
-        <iframe width="560" height="315" 
-            data-src="https://www.youtube.com/embed/bhuFqZ6eePY" 
-            frameborder="0" 
+            <iframe src="" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen" 
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-            allowfullscreen>
-        </iframe></div>
+            allowfullscreen
+            data-src="https://www.youtube.com/embed/bhuFqZ6eePY"></iframe>    
+        </iframe>
+        <script>
+            function init() {
+                var vidDefer = document.getElementsByTagName('iframe');
+                for (var i=0; i<vidDefer.length; i++) {
+                if(vidDefer[i].getAttribute('data-src')) {
+                vidDefer[i].setAttribute('src',vidDefer[i].getAttribute('data-src'));
+                } } }
+            window.onload = init;
+        </script>
+        </div>
         </main>   
         <footer>
             <p>FEDERICO GARCIA LORCA</p>

@@ -1,10 +1,10 @@
-function init() {
+/*function init() {
   var vidDefer = document.getElementsByTagName('iframe');
     if(vidDefer.getAttribute('data-src')) {
       vidDefer.setAttribute('src',vidDefer.getAttribute('data-src'));
 		} 
 	} 
-window.onload = init;
+window.onload = init;*/
 
 // NAV
 function myFunction() {
