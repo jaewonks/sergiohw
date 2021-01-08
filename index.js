@@ -15,3 +15,5 @@ function myFunction() {
 	  x.className = "topnav";
 	}
 }
+
+document.addEventListener('touchstart', onTouchStart, {passive: true});
